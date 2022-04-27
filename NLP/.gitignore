@@ -1,3 +1,4 @@
 .idea
 venv
 /src/vk_token.py
+/src/__pycache__
