@@ -1,0 +1,14 @@
+# зависимости
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+# запуск venv
+cd \NLP
+venv\Scripts\activate.bat
+
+# Запуск программы
+cd \NLP\src
+python main.py
+
+# ссылка про venv
+https://pythonchik.ru/okruzhenie-i-pakety/virtualnoe-okruzhenie-python-venv
