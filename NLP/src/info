@@ -2,7 +2,8 @@
 pip freeze > requirements.txt
 pip install -r requirements.txt
 
-# запуск venv
+# venv
+python -m venv venv
 cd \NLP
 venv\Scripts\activate.bat
 
