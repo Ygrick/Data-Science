@@ -12,8 +12,9 @@ train = parse_phrase_of_teachers()
 # нормализация фраз
 normalize_list_of_phrase = []
 for item in train:
-    if lemmatize(item):
-        normalize_list_of_phrase += lemmatize(item)
+    lemma = lemmatize(item)
+    if lemma:
+        normalize_list_of_phrase += lemma
 
 # список самых популярных слов
 fdist = FreqDist(normalize_list_of_phrase)
